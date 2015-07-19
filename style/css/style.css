@@ -1,0 +1,168 @@
+@charset"uft-8";
+html{ }
+* { transition: all 1s; }
+.img{
+	width: 6%;
+	height: 6%;
+	margin-right: 5%;
+}
+.about{
+	position:absolute;
+	top:50%; left:50%;
+	background:#ebf4fb;
+	margin:-140px 0 0 -230px;
+	border:2px solid #d9edf8;
+	/*padding-bottom:35px;*/
+	padding: 0 2% 0 2%;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-moz-box-shadow:0 0 50px #d9edf8;
+	box-shadow:0 0 50px #d9edf8;
+	width:440px;
+	font:12px microsoft yahei,微软雅黑,Nsimsun,san-serif;
+}
+
+.head{
+
+	border-bottom:1px solid #fff;
+	line-height:1.5em;
+	margin-bottom: 2%;
+}
+.head h1{
+	text-align: center;
+	color:#003366;
+}
+.head h2{
+	text-align: center;
+	font-weight: lighter;
+}
+.subject{
+	padding-top: 2%;
+	padding-bottom: 4%;
+	border-bottom:1px solid #fff;
+}
+.aside{
+	float: right;
+	padding: 1.5% 1.5% 0.75% 1.5%;
+	margin-right: 5%;
+	background: white;
+}
+.aside img{
+	
+}
+.article{
+	float: right;
+	width: 64%;
+	
+}
+.title{
+	font-size: 13px;
+	color:#003366;
+	/*color: #F9CC9D;*/
+}
+.introduce{
+	width: auto;
+	border-bottom:1px solid #fff;
+}
+.introduce p{
+	width: auto;
+}
+.adress{
+	margin-top: 2%;
+}
+.adress p{
+	 vertical-align: bottom;
+}
+.footer{
+	line-height: 55px;
+	text-align: center;
+
+}
+.foot{
+	width: 4%;
+	height: 4%;
+	margin-right: 6%;
+}
+.clear{
+	clear:both;
+}
+@media screen and (min-width: 254px) and (max-width: 499px){
+.about{
+	width: 90%;
+	height: auto;
+	position:absolute;
+	top:5%; left:2.5%;
+	margin: 0;
+	padding: 0 2% 1% 2%;
+}
+.img{
+	width: 7%;
+	margin-right: 5%;
+
+}
+.adress p{
+	width: auto;
+}
+.head h2{
+	font-size: 15px;
+}
+.aside{
+	width: 97%;
+	margin-right: 0;
+}
+.aside img{
+	width: 100%;
+}
+.article{
+	width: 100%;
+}
+}
+
+@media screen and (min-width: 1px) and (max-width: 254px){
+	.about{
+	width: 90%;
+	height: auto;
+	position:absolute;
+	top:5%; left:2.5%;
+	margin: 0;
+	padding: 0 2% 1% 2%;
+}
+	.img{
+		width: 10%;
+		margin-right: 5%;
+
+	}
+	.adress{
+		width: auto;
+	}
+	.adress p{
+		width: auto;
+	}
+	.head h1{
+		font-size: 10px;
+	}
+	.head h2{
+		font-size: 5px;
+		width: auto;
+	}
+	.aside{
+		width: 97%;
+		margin-right: 0;
+	}
+	.aside img{
+		width: 100%;
+	}
+	.article{
+		width: 100%;
+	}
+	.article p{
+		font-size: 6px;
+	}
+	.footer img{
+		width:15%;
+		margin: 2% 10%-4% 0;
+}
+
+
+
+innerHTML
